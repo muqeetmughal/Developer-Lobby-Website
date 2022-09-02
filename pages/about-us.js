@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import Header from "../layout/header-3";
-import Footer from "./../layout/footer";
-import Counter from "./../element/counter";
+import Footer from "../layout/footer";
+import Counter from "../element/counter";
 import TeamSlider from '../component/teamSlider';
 import Testimonial from '../element/testimonial';
 import Blog from '../element/blog';
