@@ -25,7 +25,7 @@ function Header() {
                         {/* <!-- Extra Nav --> */}
                         <div className="extra-nav">
                             <div className="extra-cell">
-                                <Link href="contact-us-1"><a className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Get A Quote</a></Link>
+                                <Link href="contact-us"><a className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Get A Quote</a></Link>
                             </div>
                         </div>
                         <div className={`header-nav navbar-collapse collapse justify-content-end ${show ? "show" : ""}`} id="navbarNavDropdown">
@@ -48,7 +48,7 @@ function Header() {
                                 <li className={`${open === "services" ? "open" : ""}`}><a onClick={() => setOpen("services")}><span>Services</span><i className="fa fa-chevron-down"></i></a>
                                     <ul className="sub-menu">
                 									
-										<li><Link href="/services-1"><a>Services</a></Link></li>
+										<li><Link href="/services"><a>Services</a></Link></li>
 										<li><Link href="/services-details-1"><a>Services Details</a></Link></li>
                                     </ul>
                                 </li>

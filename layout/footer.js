@@ -9,20 +9,28 @@ function Footer() {
             <div className="container">
 				<div className="footer-info wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
 					<div className="row align-items-center">
-						<div className="col-xl-6 col-md-4">
-							<div className="footer-logo">
-								<a href="/"><img src="images/logo-white.png" alt=""/></a> 
-							</div>
-						</div>
+						
 						<div className="col-xl-3 col-md-4 col-sm-6">
 							<div className="icon-bx-wraper left m-b10">
 								<div className="icon-lg"> 
-									<a href="javascript:void(0);" className="icon-cell">
+									<a href="#" className="icon-cell">
 										<i className="flaticon-email"></i>
 									</a> 
 								</div>
 								<div className="icon-content">
-									<p>+91 987-654-3210<br/>info@example.com</p>
+									<p>+92 332-6699-016</p>
+								</div>
+							</div>
+						</div>
+						<div className="col-xl-4 col-md-4 col-sm-6">
+							<div className="icon-bx-wraper left m-b10">
+								<div className="icon-lg"> 
+									<a href="#" className="icon-cell">
+										<i className="flaticon-email"></i>
+									</a> 
+								</div>
+								<div className="icon-content">
+									<p>info@developerslobby.com</p>
 								</div>
 							</div>
 						</div>
@@ -34,7 +42,7 @@ function Footer() {
 									</a> 
 								</div>
 								<div className="icon-content">
-									<p>Marmora Road Chi Minh City, Vietnam</p>
+									<p>Gulberg 3 Lahore, Pakistan</p>
 								</div>
 							</div>
 						</div>
@@ -44,7 +52,7 @@ function Footer() {
 					<div className="col-xl-3 col-lg-4 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
                         <div className="widget widget_about">
 							<h5 className="footer-title">About Us</h5>
-							<p>Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.</p>
+							<p>Developers Lobby is the digital solutions provision company who helps its clients to achieve their business goals</p>
 							<div className="dlab-social-icon">
 								<ul>
 									<li><a className="fa fa-facebook" href="https://en-gb.facebook.com/"></a></li>
@@ -98,7 +106,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 text-center"> 
-						<span className="copyright-text">Copyright © 2021 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span> 
+						<span className="copyright-text">Copyright © 2022 <a href="https://developerslobby.com/" target="_blank">Developers Lobby</a>. All rights reserved.</span> 
 					</div>
                 </div>
             </div>
