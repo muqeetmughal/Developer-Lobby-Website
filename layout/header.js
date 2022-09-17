@@ -13,6 +13,8 @@ function Header() {
                 <div className="main-bar clearfix ">
                     <div className="container clearfix">
                         {/* <!-- Website Logo --> */}
+
+                        
                         <div className="logo-header mostion logo-dark">
                            <Link href="/"><a><img src="images/logo.png" alt=""/></a></Link>
                         </div>
