@@ -9,6 +9,7 @@ import "../css/skin/skin-1.css";
 import "../styles/globals.css";
 import "../styles/switcher.css";
 import Head from "next/head"
+import Script from 'next/experimental-script'
 function MyApp({ Component, pageProps }) {
 	const [toggle1, setToggle1] = useState(false);
 	const [body_, setbody_] = useState();
@@ -62,6 +63,22 @@ function MyApp({ Component, pageProps }) {
 
 				<meta name="google-site-verification" content="wswlm-zgw5bFQ5-e2ZVSDDbPCqrFS5rVlFPigxSuEHk" />
 			</Head>
+
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-GVY0H5FZJW"></script>
+
+			<script
+				dangerouslySetInnerHTML={{
+					__html: `
+					
+					
+					  window.dataLayer = window.dataLayer || [];
+					  function gtag(){dataLayer.push(arguments);}
+					  gtag('js', new Date());
+					
+					  gtag('config', 'G-GVY0H5FZJW');
+        		`,
+				}}
+			/>
 			<div className="page-wraper">
 				<Component {...pageProps} />
 			</div>
