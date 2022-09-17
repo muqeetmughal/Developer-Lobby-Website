@@ -10,7 +10,7 @@ function Footer() {
 				<div className="footer-info wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
 					<div className="row align-items-center">
 						
-						<div className="col-xl-3 col-md-4 col-sm-6">
+						<div className="col-xl-4 col-md-4 col-sm-6">
 							<div className="icon-bx-wraper left m-b10">
 								<div className="icon-lg"> 
 									<a href="#" className="icon-cell">
@@ -27,14 +27,13 @@ function Footer() {
 								<div className="icon-lg"> 
 									<a href="#" className="icon-cell">
 										<i className="flaticon-email"></i>
-									</a> 
+									</a>
+									
 								</div>
-								<div className="icon-content">
-									<p>info@developerslobby.com</p>
-								</div>
+								
 							</div>
 						</div>
-						<div className="col-xl-3 col-md-4 col-sm-6">
+						<div className="col-xl-4 col-md-4 col-sm-6">
 							<div className="icon-bx-wraper left m-b10">
 								<div className="icon-lg"> 
 									<a href="javascript:void(0);" className="icon-cell">
@@ -42,7 +41,7 @@ function Footer() {
 									</a> 
 								</div>
 								<div className="icon-content">
-									<p>Gulberg 3 Lahore, Pakistan</p>
+									<p>Office 406, 4th Floor Rafi Group Landmark Plaza Jail Road Lahore, Pakistan 54660</p>
 								</div>
 							</div>
 						</div>
