@@ -8,7 +8,7 @@ import "../css/style.css";
 import "../css/skin/skin-1.css";
 import "../styles/globals.css";
 import "../styles/switcher.css";
-
+import Head from "next/head"
 function MyApp({ Component, pageProps }) {
 	const [toggle1, setToggle1] = useState(false);
 	const [body_, setbody_] = useState();
@@ -48,11 +48,25 @@ function MyApp({ Component, pageProps }) {
 
 	return (
 		<>
+
+			<Head>
+				<title>Developers Lobby</title>
+				<meta http-equiv="content-language" content="en" />
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta name="keywords" content="web development company, web development agency, software house, web agency, software solutions company" />
+				<meta name="author" content="Muqeet Mughal" />
+				<meta name="publisher" content="Muqeet Mughal" />
+				<meta name="copyright" content="Muqeet Mughal" />
+				<meta name="description" content="Developers Lobby is the best mobile and web application development agency providing its services globally. We provides the best solutions to your problems." />
+
+				<meta name="google-site-verification" content="wswlm-zgw5bFQ5-e2ZVSDDbPCqrFS5rVlFPigxSuEHk" />
+			</Head>
 			<div className="page-wraper">
 				<Component {...pageProps} />
 			</div>
 
-	
+
 			<a href="#top">
 				<button
 					className="scroltop icon-up"
