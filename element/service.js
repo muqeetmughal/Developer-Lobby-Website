@@ -40,7 +40,7 @@ function Service() {
                 onMouseOver={() => setOpen("p1")}
               >
                 <div className="icon-bx-md radius bg-yellow shadow-yellow">
-                  <a href="javascript:void(0);" className="icon-cell">
+                  <a href="#" className="icon-cell">
                     <i className="flaticon-office"></i>
                   </a>
                 </div>
@@ -68,7 +68,7 @@ function Service() {
                 onMouseOver={() => setOpen("p2")}
               >
                 <div className="icon-bx-md radius bg-red shadow-red">
-                  <a href="javascript:void(0);" className="icon-cell">
+                  <a href="#" className="icon-cell">
                     <i className="flaticon-website"></i>
                   </a>
                 </div>

@@ -1,7 +1,7 @@
-import Footer from "../layout/footer";
-import Header from "../layout/header-3";
+import Footer from "../../layout/footer";
+import Header from "../../layout/header-3";
 import Link from 'next/link';
-import Cta from "../element/cta";
+import Cta from "../../element/cta";
 
 function BlogDetails1() {
   return (
@@ -9,7 +9,7 @@ function BlogDetails1() {
 	<Header/>
       <div className="page-content bg-white">
 		{/* <!-- Banner  --> */}
-		<div className="dlab-bnr-inr overlay-primary-dark" style={{"backgroundImage":"url(images/banner/bnr1.jpg)"}}>
+		<div className="dlab-bnr-inr overlay-primary-dark" style={{"backgroundImage":"url(/images/banner/bnr1.jpg)"}}>
 			<div className="container">
 				<div className="dlab-bnr-inr-entry">
 					<h1>Blog Detail</h1>
@@ -34,7 +34,7 @@ function BlogDetails1() {
 						{/* <!-- blog start --> */}
                         <div className="dlab-blog blog-single style-1">
                             <div className="dlab-media rounded-md shadow">
-								<img src="images/blog/default/thum1.jpg" alt=""/>
+								<img src="/images/blog/default/thum1.jpg" alt=""/>
 							</div>
                             <div className="dlab-meta m-t10">
 								<ul>
@@ -189,19 +189,19 @@ function BlogDetails1() {
                                         <h2 className="comment-reply-title" id="reply-title">Leave a Reply <small> <a style={{"display":"none"}} href="javascript:void(0);" id="cancel-comment-reply-link" rel="nofollow">Cancel reply</a> </small> </h2>
                                         <form className="comment-form" id="commentform" method="post">
                                             <p className="comment-form-author">
-                                                <label for="author">Name <span className="required">*</span></label>
+                                                <label htmlFor="author">Name <span className="required">*</span></label>
                                                 <input type="text" name="Author"  placeholder="Author" id="author"/>
                                             </p>
                                             <p className="comment-form-email">
-                                                <label for="email">Email <span className="required">*</span></label>
+                                                <label htmlFor="email">Email <span className="required">*</span></label>
                                                 <input type="text" placeholder="Email" name="email" id="email"/>
                                             </p>
                                             <p className="comment-form-url">
-                                                <label for="url">Website</label>
+                                                <label htmlFor="url">Website</label>
                                                 <input type="text" placeholder="Website"  name="url" id="url"/>
                                             </p>
                                             <p className="comment-form-comment">
-                                                <label for="comment">Comment</label>
+                                                <label htmlFor="comment">Comment</label>
                                                 <textarea rows="8" name="comment" placeholder="Comment" id="comment"></textarea>
                                             </p>
                                             <p className="form-submit">
@@ -286,7 +286,7 @@ function BlogDetails1() {
                                     </div>
 									<div className="widget-post clearfix">
                                         <div className="dlab-media"> 
-                                            <img src="images/blog/recent-blog/pic3.jpg" alt=""/>a>
+                                            <img src="images/blog/recent-blog/pic3.jpg" alt=""/>
 										</div>
                                         <div className="dlab-info">
 											<h4 className="title"><a href="/blog-large-right-sidebar">Fusce mollis felis quis tristique</a></h4>

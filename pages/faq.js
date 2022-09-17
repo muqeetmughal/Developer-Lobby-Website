@@ -49,7 +49,7 @@ function FAQ1() {
 						</div>
 					</div>
 					<div className="col-xl-5 col-lg-4 col-md-4 text-right m-b30">
-						<a href="/contact-us-1" className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Join Now</a>
+						<a href="/contact-us" className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Join Now</a>
 					</div>
 				</div>
 			</div>

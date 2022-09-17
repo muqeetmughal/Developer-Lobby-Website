@@ -20,7 +20,7 @@ function Services1() {
 		<div className="dlab-bnr-inr overlay-primary-dark" style={{"backgroundImage":"url(images/banner/bnr1.jpg)"}}>
 			<div className="container">
 				<div className="dlab-bnr-inr-entry">
-					<h1>Services 1</h1>
+					<h1>Services we offer</h1>
 					{/* <!-- Breadcrumb Row --> */}
 					<nav aria-label="breadcrumb" className="breadcrumb-row">
 						<ul className="breadcrumb">

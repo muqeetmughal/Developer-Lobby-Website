@@ -16,8 +16,8 @@ function Header3() {
                         <div className="logo-header mostion logo-dark">
                            <Link href="/">
 								<a>
-									<img className="custom-logo-white" src="images/logo-white.png" alt="" />
-									<img className="custom-logo" src="images/logo.png" alt="" />
+									<img className="custom-logo-white" src="/images/logo-white.png" alt="" />
+									<img className="custom-logo" src="/images/logo.png" alt="" />
 								</a>
 							</Link>
 							
@@ -57,13 +57,8 @@ function Header3() {
 										<li><Link href="/services-details-1"><a>Services Details</a></Link></li>
                                     </ul>
                                 </li>
-                                <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blog</span><i className="fa fa-chevron-down"></i></a>
-                                    <ul className="sub-menu">
-                                        <li><Link href="/blog-large-right-sidebar"><a>Large Right Sidebar</a></Link></li>
-										<li><Link href="/blog-details-1"><a>Blog Details</a></Link></li>
-                                    </ul>
-                                </li>
-                                <li><Link href="/contact-us"><a>Contact Us</a></Link></li>
+                                <li><Link href="/blog"><a>Blog</a></Link></li>
+                                <li><Link href="/contact-us"><a>Contact us</a></Link></li>
                             </ul>
                             <div className="dlab-social-icon">
                                 <ul>

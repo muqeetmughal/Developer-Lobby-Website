@@ -14,7 +14,7 @@ function ComingSoon() {
 	useEffect(() => {
 		setInterval(() => {
 			const now = moment();
-			const then = moment('2021-10-27 12:12:12', 'YYYY-MM-DD hh:mm:ss');
+			const then = moment('2022-10-13 11:00:00', 'YYYY-MM-DD hh:mm:ss');
 			const countdown = moment(then - now);
 			setDays(countdown.format('D'));
 			setHours(countdown.format('HH'));

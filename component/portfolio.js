@@ -161,7 +161,7 @@ function Portfolio() {
                 <SRLWrapper >
                     <div className="clearfix">
                         <ul id="masonry" className="row" data-column-width="3">
-                          {projects.map((item) =>
+                          {projects.map((item, index) =>
                             item.filtered === true ? (
                               <>
                                 <li

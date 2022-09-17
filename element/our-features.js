@@ -14,7 +14,7 @@ function Features() {
 						<div className="section-wraper-one">
 							<div className="icon-bx-wraper style-2 left m-b30">
 								<div className="icon-bx-md radius bg-white text-red"> 
-									<a href="javascript:void(0);" className="icon-cell">
+									<a href="#" className="icon-cell">
 										<i className="flaticon-idea"></i>
 									</a> 
 								</div>
@@ -25,7 +25,7 @@ function Features() {
 							</div>
 							<div className="icon-bx-wraper style-2 left m-b30">
 								<div className="icon-bx-md radius bg-white text-yellow"> 
-									<a href="javascript:void(0);" className="icon-cell">
+									<a href="#" className="icon-cell">
 										<i className="flaticon-line-graph"></i>
 									</a> 
 								</div>
@@ -36,7 +36,7 @@ function Features() {
 							</div>
 							<div className="icon-bx-wraper style-2 left m-b30">
 								<div className="icon-bx-md radius bg-white text-green"> 
-									<a href="javascript:void(0);" className="icon-cell">
+									<a href="#" className="icon-cell">
 										<i className="flaticon-rocket"></i>
 									</a> 
 								</div>

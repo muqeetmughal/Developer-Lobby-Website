@@ -22,7 +22,7 @@
 @import url("../icons/flaticon/flaticon.css");
 @import url("../icons/themify/themify-icons.css");
 :root {
-  --gradient: linear-gradient(to right,#896eff 0,#5f3bff 51%,#896eff 100%);
+  --gradient: linear-gradient(to right,#44B0E5 0,#7bcef8 51%,#44B0E5 100%);
   --gradient-sec: linear-gradient(to right,#130065 0,#2b0ead 51%,#130065 100%); }
 
 /*!

@@ -64,11 +64,11 @@ function Quote() {
 											<div className="input-group-prepend">
 												<span className="input-group-text"><i className="la la-list"></i></span>
 											</div>
-											<select name="dzOther[choose_service]" className="form-control" required>
-												<option selected>Choose Service</option>
-												<option value="1">Web Development</option>
-												<option value="2">Web Design</option>
-												<option value="3">Strategy & Research</option>
+											<select name="dzOther[choose_service]" className="form-control" required defaultValue="1">
+												<option value="1">Choose Service</option>
+												<option value="2">Web Development</option>
+												<option value="3">Web Design</option>
+												<option value="4">Strategy & Research</option>
 											</select>
 										</div>
 									</div>
