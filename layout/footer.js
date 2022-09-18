@@ -30,7 +30,10 @@ function Footer() {
 									</a>
 									
 								</div>
-								
+
+								<div className="icon-content">
+									<p>info@developerslobby.com</p>
+								</div>
 							</div>
 						</div>
 						<div className="col-xl-4 col-md-4 col-sm-6">
