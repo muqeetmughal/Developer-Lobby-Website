@@ -10,6 +10,8 @@ import "../styles/globals.css";
 import "../styles/switcher.css";
 import Head from "next/head"
 import Script from 'next/experimental-script'
+import NextNProgress from "nextjs-progressbar";
+
 function MyApp({ Component, pageProps }) {
 	const [toggle1, setToggle1] = useState(false);
 	const [body_, setbody_] = useState();
@@ -80,6 +82,7 @@ function MyApp({ Component, pageProps }) {
 				}}
 			/>
 			<div className="page-wraper">
+				<NextNProgress />
 				<Component {...pageProps} />
 			</div>
 
