@@ -12,10 +12,10 @@ function BlogDetails1({ post }) {
 			<Header />
 			<div className="page-content bg-white">
 				{/* <!-- Banner  --> */}
-				<div className="dlab-bnr-inr overlay-primary-dark" style={{ "backgroundImage": "url(/images/banner/bnr1.jpg)" }}>
+				<div className="dlab-bnr-inr overlay-primary-dark" style={{ "backgroundImage": "url(" + post.coverImage.url + ")" }}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1>Blog Detail</h1>
+							<h1>{post.title}</h1>
 							{/* <!-- Breadcrumb Row --> */}
 							<nav aria-label="breadcrumb" className="breadcrumb-row">
 								<ul className="breadcrumb">
@@ -52,7 +52,7 @@ function BlogDetails1({ post }) {
 											<li className="post-tags">
 												Tags:
 												{post.tags.map((tag, index) => {
-													return <a href="javascript:void(0);">#Child </a>
+													return <a key={index} href="javascript:void(0);">#{tag} </a>
 												})}
 
 											</li>
@@ -336,8 +336,8 @@ export async function getServerSideProps({ params }) {
 
 	const { data } = await client.query({
 		query: gql`
-			query Post {
-			post(where: {slug: "technical-seo-with-graphcms"}) {
+			query Post($slug: String!){
+			post(where: {slug: $slug}) {
 				id
 				category
 				createdAt
@@ -360,9 +360,10 @@ export async function getServerSideProps({ params }) {
 			}
 		  
 		`,
+		variables : {slug}
 	});
 
-	// console.log(data)
+	console.log(data)
 
 	// return {
 	// 	props: {

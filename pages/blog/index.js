@@ -40,7 +40,7 @@ function BlogLargeRightSidebar({ posts }) {
 								{
 									posts.map((post, index) => {
 										return (
-											<div className="dlab-blog style-1 bg-white text-center m-b50">
+											<div key={index} className="dlab-blog style-1 bg-white text-center m-b50">
 												<div className="dlab-media dlab-img-effect zoom">
 													<img src={post.coverImage.url} alt="" />
 												</div>
@@ -166,7 +166,7 @@ function BlogLargeRightSidebar({ posts }) {
 											</div>
 										</div>
 									</div>
-									<div className="widget widget_archive">
+									{/* <div className="widget widget_archive">
 										<h2 className="widget-title">Archives</h2>
 										<ul>
 											<li><a href="javascript:void(0);">January<span>05</span></a></li>
@@ -177,7 +177,7 @@ function BlogLargeRightSidebar({ posts }) {
 											<li><a href="javascript:void(0);">Jun<span>11</span></a></li>
 											<li><a href="javascript:void(0);">July<span>19</span></a></li>
 										</ul>
-									</div>
+									</div> */}
 									<div className="widget widget_tag_cloud">
 										<h2 className="widget-title">Tags</h2>
 										<div className="tagcloud">
@@ -249,7 +249,6 @@ export async function getServerSideProps(context) {
 		`,
 	});
 
-	console.log(data)
 
 	return {
 		props: {
